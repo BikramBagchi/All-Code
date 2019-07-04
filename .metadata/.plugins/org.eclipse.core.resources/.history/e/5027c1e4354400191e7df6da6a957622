@@ -1,0 +1,49 @@
+package ConstructorPakage;
+
+public class ConstrucotClass {
+	
+	//Class instance variables
+	
+	String name ;
+	int age ;
+	
+	public ConstrucotClass()
+	{
+		System.out.println("Puro gapjal");
+	}
+
+	public ConstrucotClass(int i) // Constructor Overload
+	{
+		System.out.println("Puro gapjal");
+		System.out.println(i);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		// 1) Constructor will never return a value
+	    // 2) Same name as class
+		// 3) Same a s function or method
+		// 4) We can overloaded the constructor same like method
+		
+		//call constructor
+		
+		ConstrucotClass obj = new ConstrucotClass();
+		/* It will call the constructor
+		 without any parameter passing*/
+		ConstrucotClass obj1 = new ConstrucotClass(10);
+		/* It will call the constructor
+		 with one parameter passing*/
+		ConstrucotClass obj2 = new ConstrucotClass(30,40);
+		/* It will call the constructor
+		 with two parameter passing*/
+	} 
+
+	public ConstrucotClass(int i , int j)// Constructor Overload
+	{
+		System.out.println("Puro gapjal");
+		System.out.println(i);
+		System.out.println(j);
+	}
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30" started-at="2019-05-27T20:00:14Z" finished-at="2019-05-27T20:00:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30" started-at="2019-05-27T20:00:14Z" finished-at="2019-05-27T20:00:14Z">
+      <class name="jygj">
+        <test-method status="PASS" signature="df()[pri:0, instance:jygj@3a82f6ef]" name="df" is-config="true" duration-ms="4" started-at="2019-05-27T20:00:14Z" finished-at="2019-05-27T20:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- df -->
+        <test-method status="PASS" signature="hjj()[pri:0, instance:jygj@3a82f6ef]" name="hjj" duration-ms="5" started-at="2019-05-27T20:00:14Z" finished-at="2019-05-27T20:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hjj -->
+      </class> <!-- jygj -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

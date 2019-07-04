@@ -1,0 +1,5 @@
+package InterfaceInConstructorUseOfSuperKeyWord;
+
+public class ClassChild {
+
+}

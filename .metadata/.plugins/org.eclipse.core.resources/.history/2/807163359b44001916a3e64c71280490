@@ -1,0 +1,18 @@
+package InterfaceInConstructorUseOfSuperKeyWord;
+
+public class ClassChild extends ClassPArent {
+
+	public static void main(String[] args) 
+	{
+		ClassChild obj1 = new ClassChild();
+		
+	}
+
+	public ClassChild() {//Child class constructor
+		
+		System.out.println("Child class ladkhor ami kiucchu hbe na ");
+				
+	}
+	
+
+}

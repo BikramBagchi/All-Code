@@ -1,0 +1,29 @@
+package com.orange.pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class DashboardPage
+{
+
+	WebDriver driver;
+	
+	String ExpectedTitle = "OrangeHRM";
+	
+	public DashboardPage(WebDriver driver)
+	{
+		this.driver = driver;
+	}
+	
+	public Boolean PageTitle()
+	{
+		String Actual = driver.getTitle();
+		
+		if (Actual.equals(ExpectedTitle))
+			
+			return true;
+		else
+			
+			return false;
+		
+	}
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="5" name="Admin(failed)">
+    <classes>
+      <class name="Test.Admin">
+        <methods>
+          <include name="TC_013"/>
+          <include name="TC_014"/>
+          <include name="Beforemethod"/>
+          <include name="close"/>
+          <include name="TC_015"/>
+        </methods>
+      </class> <!-- Test.Admin -->
+    </classes>
+  </test> <!-- Admin(failed) -->
+  <test thread-count="5" verbose="5" name="Employee(failed)">
+    <classes>
+      <class name="Test.Employee">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="TC_016"/>
+          <include name="TC_018"/>
+          <include name="Beforemethod"/>
+          <include name="TC_017"/>
+        </methods>
+      </class> <!-- Test.Employee -->
+    </classes>
+  </test> <!-- Employee(failed) -->
+  <test thread-count="5" verbose="5" name="Requirement(failed)">
+    <classes>
+      <class name="Test.Recruitment">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="Beforemethod"/>
+          <include name="TC_024"/>
+        </methods>
+      </class> <!-- Test.Recruitment -->
+    </classes>
+  </test> <!-- Requirement(failed) -->
+</suite> <!-- Failed suite [Suite] -->

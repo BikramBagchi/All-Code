@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Inheretance&apos;" deleteContents="false" description="Delete resource &apos;Inheretance&apos;" element1="/Inheretance" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1550257023094"/>
+</session>

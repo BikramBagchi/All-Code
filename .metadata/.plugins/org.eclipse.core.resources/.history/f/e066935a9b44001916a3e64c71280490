@@ -1,0 +1,36 @@
+package InterfaceInConstructorUseOfSuperKeyWord;
+
+public class ClassChild extends ClassPArent {
+
+	public static void main(String[] args) 
+	{
+		ClassChild obj1 = new ClassChild();
+		/*
+		 This will going to call the both the class(child and parent
+		 default constructor means constructor without any parameter
+		 passing
+		 */
+		
+		/*
+		  Now how to call the those constructor with passing parameters
+		  Foe this we use super keyword
+		 */
+	
+		
+	}
+
+	public ClassChild() {//Child class constructor
+		
+		super(10);
+		
+		//super(40,50); At a time we can call only one constructor
+		
+		/*This will going to call the parent class
+		 constructor with parameter passing 
+		*/
+		System.out.println("Child class ladkhor ami kiucchu hbe na ");
+				
+	}
+	
+
+}

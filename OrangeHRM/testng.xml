@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose ="5">
+  <test name = "login" thread-count="5" >
+    <classes>
+      <class name="Test.Login"/>
+    </classes>
+  </test> 
+  <test name = "Admin" thread-count="5">
+    <classes>
+     <class name="Test.Admin"/>
+    </classes>
+  </test> 
+  <test name = "Employee" thread-count="5">
+    <classes>
+     <class name="Test.Employee"/>
+    </classes>
+  </test> 
+  <test name = "Requirement" thread-count="5">
+    <classes>
+      <class name="Test.Recruitment"/>
+    </classes>
+  </test> 
+  <test name = "Report" thread-count="5">
+    <classes>
+     <class name="Test.Report"/>
+    </classes>
+  </test> 
+</suite> 
